@@ -1,0 +1,177 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features Section</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/features.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1>Our Features</h1>
+            <h1>Facial Recognition System</h1>
+        </div>
+        <section class="opportunities">
+            
+            <div class="opportunities__body">
+                <div class="opportunity">
+
+                    <ul style="list-style-type:disc;">
+                        <span>
+                            <h3>Facial Recognition System</h3>
+                        </span> <br>
+                        <li>Works for faces on side angles .(Robust MCNN Detector)</li><br>
+                        <li>sworks on covered faces (Masks, Sunglasses etc)
+                        </li><br>
+                        <li> Reduces glare via color optimization techniques, works with changes in
+                            facial Appearance (growing beard, makeup)
+                        </li><br>
+                        <li>Maps objects people interact with to them Eg.
+                            Person A -> Riding a bike wearing a backpack and holding a helmet.
+                        </li><br>
+                        <li>Eg. Person B Worling on road , carrying a suitcase and holding a knife</li>
+                    </ul>
+                    <p class="opportunity__description">
+                    </p>
+                </div>
+
+                <div class="opportunity">
+                    <img src="{% static 'img/Features/bike.jpg' %}" class="" alt="Icon" class="opportunity__icon">
+
+                </div>
+            </div>
+        </section>
+        <div class="text-center">
+            
+            <h1>Detects Number Plate in the DARK</h1>
+        </div>
+        <section class="opportunities">
+
+            <div class="opportunities__body">
+                <div class="opportunity">
+
+                    <ul style="list-style-type:disc;">
+                        <span>
+                            <li><h3>DETECTS NUMBER PLATE IN THE DARK</h3></li>
+                        </span> <br>
+                        <li> We have used YOLOV5 on which we have trained multiple images.</li><br>
+                        <li> YOLOv5, a state-of-the-art object detection algorithm, to detect number plates in the dark.
+                        </li><br>
+                        <li> YOLOV5 helps in improved accuracy and efficiency in detecting number plates in the dark</li>
+    
+                    </ul>
+                    <p class="opportunity__description">
+                    </p>
+                </div>
+
+                <div class="opportunity">
+                    <img src="{% static 'img/Features/dark.png' %}" class="" alt="Icon" class="opportunity__icon">
+
+                </div>
+            </div>
+        </section>
+        
+        <div class="text-center">
+            
+            <h1>Facial Recognition System</h1>
+        </div>
+        <section class="opportunities">
+
+            <div class="opportunities__body">
+                <div class="opportunity">
+
+                    <ul style="list-style-type:disc;">
+                        <span>
+                            <h3>FACIAL RECOGNITION SYSTEM</h3>
+                        </span> <br>
+                        <li> With the OCR and transfer learning techniques, we are implementing the face detection </li>
+                        <li> We are also including the edge cases like detecting people with facemasks, goggles ad also side
+                            view </li>
+                        <li> It will help us detect high speeders, recognize faces in cases of accidents, get their challan
+                            history, etc </li>
+    
+                    </ul>
+                    <p class="opportunity__description">
+                    </p>
+                </div>
+
+                <div class="opportunity">
+                    <img src="{% static 'img/Features/face.png' %}" class="" alt="Icon" class="opportunity__icon">
+
+                </div>
+            </div>
+        </section>
+       
+        <div class="text-center">
+            <!-- <h1>Our Features</h1> -->
+            <h1>Recognize Number plate in Different Languages</h1>
+        </div>
+        <section class="opportunities">
+
+            <div class="opportunities__body">
+                <div class="opportunity">
+
+                    <ul style="list-style-type:disc;">
+                        <span>
+                            <h3>Recognize Number plate in Different Languages</h3>
+                        </span> <br>
+                        <li> With the OCR and transfer learning techniques, we are implementing the face detection </li>
+                        <li> We are also including the edge cases like detecting people with facemasks, goggles ad also side
+                            view </li>
+                        <li> It will help us detect high speeders, recognize faces in cases of accidents, get their challan
+                            history, etc </li>
+    
+                    </ul>
+                    <p class="opportunity__description">
+                    </p>
+                </div>
+
+                <div class="opportunity">
+                    <img src="{% static 'img/Features/numberplate.png' %}" class="" alt="Icon" class="opportunity__icon">
+
+                </div>
+            </div>
+        </section>
+       
+        <div class="text-center">
+            <!-- <h1>Our Features</h1> -->
+            <h1>Recognize Number plate in Different Languages</h1>
+        </div>
+        
+        <section class="opportunities">
+
+            <div class="opportunities__body">
+                <div class="opportunity">
+
+                    <ul style="list-style-type:disc;">
+                        <span>
+                            <h3>Facial Recognition System</h3>
+                        </span> <br>
+                        <li> Our system can detect number plates of stationery cars which are parked.</li>
+                    <li>The system can be used in the parking lots of malls, commercial buildings, public parking spaces, etc</li>
+                        <li>Obtain image from CCTV or camera of the parking facility. Select ROIs for the possible parking slots in the facility.</li>
+                    </ul>
+                    <p class="opportunity__description">
+                    </p>
+                </div>
+
+                <div class="opportunity">
+                    <img src="{% static 'img/Features/park.png' %}" class="" alt="Icon" class="opportunity__icon">
+
+                </div>
+            </div>
+        </section>
+
+        
+
+</body>
+
+</html>
